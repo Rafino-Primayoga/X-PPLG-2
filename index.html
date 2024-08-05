@@ -10,6 +10,7 @@
   <title>X-PPLG-2 | MUTUHARJO</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <style>
     nav {
       font-family: "Sans-Serif";
@@ -75,9 +76,7 @@
   <p class="fw-bold fs-3 text-black mb-0">
     ────────────────────
   </p>
-  <p class="lead mb-4">
-    SMK MUHAMMADIYAH 1 SUKOHARJO
-  </p>
+  <p class="lead mb-4"></p>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 1440 300"><path fill="#ff0000" fill-opacity="1" d="M0,160L0,192L288,192L288,96L576,96L576,32L864,32L864,160L1152,160L1152,96L1440,96L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
 </section>
 <!-- Hero Section Tutup -->
@@ -86,7 +85,7 @@
   <div class="container">
     <div class="row text-center fw-bold mb-3 text-white">
       <div class="col">
-        <h2>Class Structure</h2>
+        <h2></h2>
       </div>
     </div>
     <div class="row text-center">
@@ -95,19 +94,19 @@
       </div>
     </div>
     <div class="row justify-content-center text-center">
-      <div class="col-md mb-4">
+      <div data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" class="col-md mb-4">
         <div class="card">
           <div class="card-header bg-warning fw-bold">
             Wali Kelas
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Kamari, S.Kom, M.Pd</li>
+            <li class="list-group-item">Bpk. Kamari, S.Kom, M.Pd</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-md-4 mb-4">
+      <div data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" class="col-md-4 mb-4">
         <div class="card">
           <div class="card-header bg-warning fw-bold text-center">
             Ketua Kelas
@@ -119,7 +118,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4 mb-4">
+      <div data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" class="col-md-4 mb-4">
         <div class="card">
           <div class="card-header bg-warning fw-bold text-center">
             Wakil Ketua
@@ -131,7 +130,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4 mb-4">
+      <div data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" class="col-md-4 mb-4">
         <div class="card">
           <div class="card-header bg-warning fw-bold text-center">
             Creator Website
@@ -145,13 +144,13 @@
       </div>
     </div>
     <div class="row text-center justify-content-evenly">
-      <div class="col-sm-4 mb-3">
+      <div data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000" class="col-sm-4 mb-3">
         <button onclick="mulai()" type="button" class="btn btn-warning fw-bold"><span><i class="bi bi-play-fill me-2"></i></span>PLAY</button>
       </div>
-      <div class="col-sm-4 mb-3">
+      <div data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000" class="col-sm-4 mb-3">
         <button type="button" class="btn btn-warning fw-bold"><a href="https://www.instagram.com/x.pplg.2/" class="text-black fw-bold"><span><i class="bi bi-instagram me-2"></i></span>INSTAGRAM</a></button>
       </div>
-      <div class="col-sm-4 mb-3">
+      <div data-aos="zoom-in" data-aos-offset="400" data-aos-duration="1000" class="col-sm-4 mb-3">
         <button onclick="tahan()" type="button" class="btn btn-warning fw-bold"><span><i class="bi bi-pause-fill me-2"></i></span>PAUSE</button>
       </div>
     </div>
@@ -168,15 +167,15 @@
 <section id="galeri">
   <div class="container">
     <div class="row text-center fw-bold mb-3 text-black">
-      <div class="col">
+      <div data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" class="col">
         <h2>Class Gallery</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 mb-4">
+      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1000" class="col-md-6 mb-4">
         <img src="https://i.ibb.co.com/dPXpcgX/IMG-20240803-WA0039.jpg" class="rounded img-thumbnail shadow-sm" width="100%" alt="Galeri-1">
       </div>
-      <div class="col-md-6 mb-4">
+      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1000" class="col-md-6 mb-4">
         <img src="https://i.ibb.co.com/VY7tcgw/IMG-20240803-WA0053.jpg" class="rounded img-thumbnail shadow-sm" width="100%" alt="Galeri-2">
       </div>
     </div>
@@ -195,6 +194,9 @@
 <audio id="lagunya">
   <source src="backsound.ogg" type="audio/ogg">
 </audio>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   var musik = document.getElementById("lagunya");
   function mulai() {
@@ -203,6 +205,25 @@
   function tahan() {
     musik.pause();
   }
+  AOS.init({
+    once: true
+  });
+  gsap.registerPlugin(TextPlugin)
+  gsap.to('.lead', {
+    duration: 3.5, delay: 1.5, text: 'SMK MUHAMMADIYAH 1 SUKOHARJO'
+  })
+  gsap.to('#kelas-kami h2', {
+    duration: 2, delay: 2, text: 'Class Structure'
+  })
+  gsap.from('.navbar', {
+    duration: 3, y: '-100%', opacity: 0, ease: 'bounce'
+  })
+  gsap.from('.jumbotron img', {
+    duration: 1.5, rotateY: -360, opacity: 0
+  })
+  gsap.from('.display-4', {
+    duration: 2, x: -50, opacity: 0, delay: 0.7, ease: 'back'
+  })
 </script>
 </body>
 </html>
